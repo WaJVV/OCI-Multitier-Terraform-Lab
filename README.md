@@ -1,6 +1,6 @@
 # 3-Tier Cloud Architecture on OCI
 
-![Architecture Diagram](./img/LabArchitecture.drawio.jpg)
+![Architecture Diagram](Lab%20Architecture.drawio.png)
 
 [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/WaJVV/OCI-Multitier-Terraform-Lab.git)
 [![Terraform](https://img.shields.io/badge/Terraform-1.0+-623CE4?logo=terraform)](https://www.terraform.io/)
