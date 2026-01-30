@@ -1,6 +1,6 @@
 # 3-Tier Cloud Architecture on OCI
 
-![Architecture Diagram](./img/Lab%20Architecture.drawio.jng)
+![Architecture Diagram](./img/Lab%20Architecture.drawio.jpg)
 
 [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/WaJVV/OCI-Multitier-Terraform-Lab.git)
 [![Terraform](https://img.shields.io/badge/Terraform-1.0+-623CE4?logo=terraform)](https://www.terraform.io/)
@@ -23,7 +23,7 @@ The environment is architected into three distinct logical segments to minimize 
     * **Resource:** Database System.
     * **Strict Isolation:** Zero internet access. Inbound traffic is restricted exclusively to the Application Layer via stateful Security Lists, ensuring the data sanctuary remains untouched.
 
-## 🛡️Advanced Security & Engineering Standards
+## Advanced Security & Engineering Standards
 * **Principle of Least Privilege (PoLP):** Security Lists are granularly configured to allow only specific ports (e.g., TCP 3000 for App, 3306 for DB) from verified source CIDRs.
 * **Bastion Hopping Strategy:** Implements secure administrative access to private instances using the Web Server as a controlled, audited entry point.
 * **Network Segmentation:** Logical separation using a VCN with a `172.16.0.0/20` block, optimized for high availability and future scaling across Availability Domains.
